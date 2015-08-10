@@ -8,5 +8,11 @@
 var define = require('./define'),
     Engine = require('./engine');
 
-define.Engine = Engine;
-moudle.exports = define;
+function cozEngine (properties){
+    return define(properties);
+}
+
+cozEngine.Engine = Engine;
+cozEngine.define = define;
+
+module.exports = cozEngine;
