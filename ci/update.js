@@ -9,7 +9,7 @@
 process.chdir(__dirname + '/..');
 
 var apeTasking = require('ape-tasking'),
-    apeUpdating = require('../lib');
+    apeUpdating = require('ape-updating');
 
 apeTasking.runTasks('update', [
     function renderBud(callback) {
