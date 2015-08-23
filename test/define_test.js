@@ -9,7 +9,6 @@ var define = require('../lib/define.js');
 
 exports['Define a constructor.'] = function (test) {
     var Defined = define({
-        $name: 'baz',
         compile: function () {
         },
         foo: 'bar'
