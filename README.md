@@ -33,9 +33,13 @@ Abstract engine for coz
 
 
 
+
 <!-- Sections Start -->
 <a name="sections"></a>
 
+<!-- Section from "docs/readme/02.Usage.md.hbs" Start -->
+
+<a name="section-docs-readme-02-usage-md"></a>
 Usage
 ----
 
@@ -52,6 +56,8 @@ var MyCustomEngine = cozEngine({
 
 var engine = new MyCustomEngine({});
 ```
+
+<!-- Section from "docs/readme/02.Usage.md.hbs" End -->
 
 
 <!-- Sections Start -->
