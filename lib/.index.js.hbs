@@ -3,16 +3,16 @@
  * @module: {{pkg.name}}
  * @version: {{pkg.version}}
  */
-"use strict";
+'use strict'
 
-var define = require('./define'),
-    Engine = require('./engine');
+const define = require('./define')
+const Engine = require('./engine')
 
 function cozEngine (properties){
-    return define(properties);
+  return define(properties)
 }
 
-cozEngine.Engine = Engine;
-cozEngine.define = define;
+cozEngine.Engine = Engine
+cozEngine.define = define
 
-module.exports = cozEngine;
+module.exports = cozEngine

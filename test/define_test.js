@@ -3,16 +3,16 @@
  * Runs with nodeunit.
  */
 
-"use strict";
+'use strict'
 
-var define = require('../lib/define.js');
+const define = require('../lib/define.js')
 
-exports['Define a constructor.'] = function (test) {
-    var Defined = define({
-        compile: function () {
-        },
-        foo: 'bar'
-    });
-    test.equal(new Defined().foo, 'bar');
-    test.done();
+exports[ 'Define a constructor.' ] = function (test) {
+  var Defined = define({
+    compile: function () {
+    },
+    foo: 'bar'
+  })
+  test.equal(new Defined().foo, 'bar')
+  test.done()
 };
