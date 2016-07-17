@@ -1,18 +1,19 @@
 /**
  * Test case for define.js
- * Runs with nodeunit.
+ * Runs with mocha.
  */
 
 'use strict'
 
 const define = require('../lib/define.js')
+const assert = require('assert')
 
-exports[ 'Define a constructor.' ] = function (test) {
+it('Define a constructor.', (done) => {
   var Defined = define({
-    compile: function () {
+    compile () {
     },
     foo: 'bar'
   })
-  test.equal(new Defined().foo, 'bar')
-  test.done()
-};
+  assert.equal(new Defined().foo, 'bar')
+  done()
+})

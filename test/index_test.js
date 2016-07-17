@@ -1,16 +1,16 @@
 /**
  * Test case for index.js
- * Runs with nodeunit.
+ * Runs with mocha.
  */
 
 'use strict'
 
 const index = require('../lib/index.js')
-
-exports[ 'Construct a engine.' ] = function (test) {
-  test.ok(index)
-  test.ok(index.Engine)
-  test.ok(index.define)
-  test.done()
-};
+const assert = require('assert')
+it('Construct a engine.', (done) => {
+  assert.ok(index)
+  assert.ok(index.Engine)
+  assert.ok(index.define)
+  done()
+})
 
