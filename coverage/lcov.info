@@ -1,5 +1,5 @@
 TN:
-SF:/Users/okunishitaka/projects/coz-repo/coz-engine/ci/test.js
+SF:/Users/okunishitaka/projects/coz-labo/coz-engine/ci/test.js
 FN:15,runNodeunit
 FNF:1
 FNH:1
@@ -14,7 +14,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:/Users/okunishitaka/projects/coz-repo/coz-engine/lib/define.js
+SF:/Users/okunishitaka/projects/coz-labo/coz-engine/lib/define.js
 FN:14,define
 FN:17,(anonymous_2)
 FNF:2
@@ -44,7 +44,7 @@ BRF:2
 BRH:2
 end_of_record
 TN:
-SF:/Users/okunishitaka/projects/coz-repo/coz-engine/lib/engine.js
+SF:/Users/okunishitaka/projects/coz-labo/coz-engine/lib/engine.js
 FN:12,Engine
 FN:43,(anonymous_2)
 FN:56,(anonymous_3)
@@ -111,7 +111,7 @@ BRF:8
 BRH:7
 end_of_record
 TN:
-SF:/Users/okunishitaka/projects/coz-repo/coz-engine/lib/index.js
+SF:/Users/okunishitaka/projects/coz-labo/coz-engine/lib/index.js
 FN:11,cozEngine
 FNF:1
 FNH:0

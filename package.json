@@ -1,6 +1,6 @@
 {
   "name": "coz-engine",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "Abstract engine for coz",
   "main": "lib",
   "scripts": {
